@@ -6,20 +6,20 @@ app.get('/',(req,res)=>{
     res.render('home');
 })
 
-app.get('/first_page',(req,res)=>{
-    res.render('first_page');
+app.get('/fabric',(req,res)=>{
+    res.render('fabric');
 })
 
-app.get('/second_page',(req,res)=>{
-    res.render('second_page');
+app.get('/flowers',(req,res)=>{
+    res.render('flowers');
 })
 
-app.get('/third_page',(req,res)=>{
-    res.render('third_page');
+app.get('/light',(req,res)=>{
+    res.render('light');
 })
 
-app.get('/fourth_page',(req,res)=>{
-    res.render('fourth_page');
+app.get('/sound',(req,res)=>{
+    res.render('sound');
 })
 
 app.set('view engine', 'ejs');
