@@ -1,7 +1,6 @@
 .page-footer {
     padding: 40px 0;
-    background-color: rgb(186, 71, 186);
-    background-blend-mode:color-burn ;
+    background: linear-gradient(to right, #ba47ba 0%, #fcf 100%);
     color: rgb(184, 182, 182);
     border-radius: 5px;
 }
@@ -93,6 +92,10 @@ i{
 }
 
 a{
+    color:pink;
+    text-decoration: none;
+}
+a:hover{
     color:pink;
 }
 
