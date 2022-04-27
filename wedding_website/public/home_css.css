@@ -73,7 +73,7 @@
 
 .page-footer {
     padding: 40px 0;
-    background: linear-gradient(to right, #ba47ba 0%, #fcf 100%);
+    background: linear-gradient(to right, #ba47ba 0%, #fcf 99%);
     color: rgb(184, 182, 182);
     border-radius: 5px;
 }
